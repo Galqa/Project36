@@ -1,0 +1,18 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Serving Web Content</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<form action="/Lesson54_war_exploded/form" method="post">
+    <input type="text" name="name" placeholder="name"/>
+    <input type="text" name="email" placeholder="email"/>
+    <input type="submit"/>
+</form>
+
+<!-- Додана кнопка для виведення всіх записів -->
+<form action="/Lesson54_war_exploded/show" method="get">
+    <input type="submit" value="Show all records"/>
+</form>
+</body>
+</html>
